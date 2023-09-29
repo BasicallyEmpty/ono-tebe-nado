@@ -45,8 +45,16 @@ html {
     text-underline-offset: 4px;
 }
 
+.header__link:hover {
+    opacity: .6;
+}
+
 .header__link_active {
     text-decoration: none;
+}
+
+.header__link_active:hover {
+    opacity: 1;
 }
 
 .header__logo {
@@ -64,6 +72,10 @@ html {
     line-height: 24px;
     text-underline-offset: 4px;
     max-width: 240px;
+}
+
+.address__link:hover {
+    opacity: .6;
 }
 
 .header__address {
@@ -159,6 +171,10 @@ html {
     background: none;
 }
 
+.bet-button:hover {
+    opacity: .8;
+}
+
 .lots {
     width: 100%;
     padding: 180px 50px 91px;
@@ -190,6 +206,10 @@ html {
 .card-link {
     position: relative;
     text-decoration: none;
+}
+
+.card-link:hover {
+    opacity: .8;
 }
 
 .card {
@@ -236,6 +256,10 @@ html {
     font-size: 20px;
     text-underline-offset: 4px;
     text-transform: lowercase;
+}
+
+.lots__look-more-link:hover {
+    opacity: .6;
 }
 
 .about {
@@ -305,6 +329,10 @@ html {
     font-size: 18px;
 }
 
+.footer__link:hover {
+    opacity: .6;
+}
+
 .footer__links-list-item {
     text-underline-offset: 4px;
     text-transform: lowercase;
@@ -312,6 +340,10 @@ html {
 
 .footer__link_active {
     text-decoration: none;
+}
+
+.footer__link_active:hover {
+    opacity: 1;
 }
 
 .footer__social-list {
@@ -327,6 +359,10 @@ html {
 
 .footer__social-list-item:last-of-type {
     margin: 0;
+}
+
+.footer__social-link:hover {
+    opacity: .5;
 }
 
 .footer__social-icon {
