@@ -236,8 +236,7 @@
 .about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "logo about about";
+    grid-template-areas: 'logo about about';
     column-gap: 25px;
     width: 100%;
     margin: auto;
