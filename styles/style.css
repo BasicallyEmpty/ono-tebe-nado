@@ -11,7 +11,7 @@ html {
 
 .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     width: 100%;
     padding: 92px 50px;
@@ -63,6 +63,7 @@ html {
     font-style: normal;
     line-height: 24px;
     text-underline-offset: 4px;
+    max-width: 240px;
 }
 
 .header__address {
@@ -105,14 +106,12 @@ html {
 }
 
 .aligned-text_center {
-    display: block;
     margin: 20px 30px 20px 0;
     line-height: 100%;
     text-align: center;
 }
 
 .aligned-text_right {
-    display: block;
     line-height: 100%;
     text-align: right;
 }
@@ -190,6 +189,7 @@ html {
 
 .card-link {
     position: relative;
+    text-decoration: none;
 }
 
 .card {
@@ -197,6 +197,7 @@ html {
     height: 100%;
     padding: 50px 40px;
     background-size: cover;
+    background-position: center;
 }
 
 .card_type_film {
